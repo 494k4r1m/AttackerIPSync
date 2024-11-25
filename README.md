@@ -5,10 +5,10 @@ This repository provides a simple yet powerful **Python-based integration** betw
 ## 🎯 Goal
 The goal of this tool is to streamline the process of:
 
-1️⃣ Extracting **IP addresses** and **URLs** associated with offenses from QRadar.  
-2️⃣ Allowing a human analyst to **approve or reject** the data for further action.  
-3️⃣ Adding approved attributes dynamically to **MISP events**.  
-4️⃣ Automatically **publishing the updated MISP event** for broader visibility.
+- Extracting **IP addresses** and **URLs** associated with offenses from QRadar.  
+- Allowing a human analyst to **approve or reject** the data for further action.  
+- Adding approved attributes dynamically to **MISP events**.  
+- Automatically **publishing the updated MISP event** for broader visibility.
 
 ## 🔧 How It Works
 - **QRadar Offenses**: The script connects to QRadar and fetches offenses containing threat indicators.  
