@@ -1,4 +1,4 @@
-# 📡 QRadar & MISP Integration/Automation 🛡️
+# QRadar & MISP Integration/Automation 🛡️
 
 This repository provides a simple yet powerful **Python-based integration** between **QRadar** and **MISP (Malware Information Sharing Platform)**.
 
@@ -11,10 +11,10 @@ The goal of this tool is to streamline the process of:
 4️⃣ Automatically **publishing the updated MISP event** for broader visibility.
 
 ## 🔧 How It Works
-🗂️ **QRadar Offenses**: The script connects to QRadar and fetches offenses containing threat indicators.  
-👩‍💻 **Approval Interface**: Displays IPs and URLs for an analyst to approve using a simple input interface.  
-🛠️ **MISP Integration**: Adds approved indicators to a specified MISP event.  
-🚀 **Publish Events**: Publishes the updated MISP event automatically.
+• **QRadar Offenses**: The script connects to QRadar and fetches offenses containing threat indicators.  
+• **Approval Interface**: Displays IPs and URLs for an analyst to approve using a simple input interface.  
+• **MISP Integration**: Adds approved indicators to a specified MISP event.  
+• **Publish Events**: Publishes the updated MISP event automatically.
 
 ## ⚠️ Privacy and Security Notice
 This script is designed with modularity and privacy in mind. No hardcoded sensitive data is included in the repository. You must provide your **QRadar API**, **MISP API tokens**, and other configurations locally. Please handle your credentials securely.
